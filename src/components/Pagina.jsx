@@ -6,17 +6,17 @@ export function Pagina(props) {
             flex flex-col justify-center items-start
             px-5 h-16
             border-b border-zinc-700
-            bg-zinc-800 text-zinc-400
+            bg-azul text-white
         `}
       >
         <h1 className="text-xl font-black">{props.titulo}</h1>
-        <h2 className="text-sm text-zinc-400">{props.subtitulo}</h2>
+        <h2 className="text-sm text-white">{props.subtitulo}</h2>
       </header>
       <main
         className={`
             flex items-start flex-1
             p-4
-            bg-zinc-900 
+            bg-cinza
             text-base text-white
         `}
       >
